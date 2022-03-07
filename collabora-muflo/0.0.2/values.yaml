@@ -68,7 +68,9 @@ environmentVariablesCool:
   - name: password
     value:
   - name: domain
-    value: collabora
+    value: yournextcloudserverurl
+  - name: server_name
+    value: coolwsd.public.example.com
 
 service:
   name: collabora-muflo
