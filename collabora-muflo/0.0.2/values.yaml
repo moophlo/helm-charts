@@ -62,7 +62,7 @@ deployment:
 
 environmentVariablesCool:
   - name: extra_params
-    value: --o:ssl.enable=false
+    value: --o:ssl.enable=false --o:ssl.termination=true
   - name: username
     value:
   - name: password
