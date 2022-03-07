@@ -23,8 +23,6 @@ global:
       internalPort: 9980
   ingress:
     name: collabora-muflo
-    tlsissuer: letsencrypt
-    tlssecret: coolwsd-public-example-com-tls
 
 replicaCount: 3 # This is the amount of how many instances of coolwsd will run
 

@@ -18,7 +18,3 @@ spec:
             name: {{ .Values.global.app.service.name }}
             port:
               number: 9980
-  tls:
-  - hosts:
-    - {{ .Values.hosts.host }}
-    secretName: {{ .Values.global.ingress.tlssecret }}
