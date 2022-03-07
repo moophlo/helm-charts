@@ -11,7 +11,7 @@ global:
       max: 10
       target:
         cpu: 70
-        memory: 70
+        memory: 0
     monitoring:
       activate: false
       port: 9980
@@ -89,7 +89,7 @@ resources:
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   limits:
     cpu: 2000m
-    memory: 256Mi
+    #memory: 256Mi
   requests:
     cpu: 100m
-    memory: 128Mi
+    #memory: 128Mi
