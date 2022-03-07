@@ -4,7 +4,7 @@
 global:
   app:
     name: collabora-muflo
-    urlScheme: HTTP # either HTTP or HTTPS
+    urlScheme: HTTPS # either HTTP or HTTPS
     scaling:
       enabled: true
       min: 1
@@ -62,7 +62,7 @@ deployment:
 
 environmentVariablesCool:
   - name: extra_params
-    value: --o:ssl.enable=false
+    value: --o:ssl.enable=true
   - name: username
     value:
   - name: password
