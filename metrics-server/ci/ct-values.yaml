@@ -1,1 +1,12 @@
-values-with-rbac.yaml
+# Test values file for generating all of the yaml and check that
+# the rendering is correct
+
+rbac:
+  create: true
+
+serviceAccount:
+  create: true
+
+extraArgs:
+  kubelet-insecure-tls: true
+  kubelet-preferred-address-types: InternalIP
